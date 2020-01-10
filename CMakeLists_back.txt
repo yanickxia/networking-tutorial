@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.15)
+project(networking_tutorial)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(echo-server)
+include_directories(multi-server-fork)
+
+add_executable(networking_tutorial
+        multi-server-fork/multi-server-fork.cpp
+        CMakeLists.txt)

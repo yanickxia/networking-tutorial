@@ -1,2 +1,15 @@
 .idea/
 */cmake-build-debug/
+*/CMakeFiles/
+*.cmake
+*/Makefile
+CMakeFiles
+*.cbp
+Makefile
+.project
+CMakeCache.txt
+
+multi-server-epoll/multi-server-epoll
+multi-server-fork/multi-server-fork
+multi-server-pthread/multi-server-pthread
+echo-server/echo-server
